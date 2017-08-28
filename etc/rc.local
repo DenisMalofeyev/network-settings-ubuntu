@@ -16,5 +16,5 @@
 
 # By default this script does nothing.
 iptables-restore < /etc/iptables_tor
-./nechlebdebil.sh
+/home/username/nechlebdebil.sh
 exit 0
