@@ -21,7 +21,7 @@ $ echo "nameserver 127.0.0.1" | sudo tee /etc/resolv.conf
 </code>
 Поскольку всякие NetworkManager очень любят перезаписывать этот файл - лучше его вообще залочить на запись:
 <code>
-$ sudo chattr +i /etc/resolv.conf</code>
+$ sudo chattr +i /etc/resolv.conf
 
 chmod +x iptables_setup.sh
 chmod +x netor.sh
